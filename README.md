@@ -10,8 +10,8 @@
 ## 📸 Preview
 
 <div align="center">
-  <img src="preview-cover.png" width="45%" alt="Cover Page Preview" />
-  <img src="preview-body.png" width="45%" alt="Report Body Preview" />
+  <img src="preview-cover.png" width="30%" alt="Cover Page Preview" />
+  <img src="preview-body.png" width="30%" alt="Report Body Preview" />
 </div>
 
 > **Modular, clean, and pre-formatted LaTeX report template tailored for university students.**
