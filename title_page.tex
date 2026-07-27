@@ -1,0 +1,93 @@
+% --- Cover Page Images & Scaling ---
+\newcommand{\CoverWatermarkLogo}{UiTM_Logo_Outline.png}
+\newcommand{\CoverWatermarkScale}{0.84}
+\newcommand{\CoverWatermarkOpacity}{0.05}
+
+\newcommand{\CoverMainLogo}{UiTM_Logo_Colour_Text.png}
+\newcommand{\CoverMainLogoWidth}{6.5cm}
+
+% --- Cover Page Text Labels (Easy Translation/Editing) ---
+\newcommand{\LabelBranch}{Branch}
+\newcommand{\LabelFaculty}{Faculty}
+\newcommand{\LabelFulfillment}{Submitted in partial fulfillment of the requirements for}
+\newcommand{\LabelPreparedBy}{Prepared by}
+\newcommand{\LabelStudentName}{Student Name}
+\newcommand{\LabelStudentID}{Student ID}
+\newcommand{\LabelLecturer}{Lecturer}
+\newcommand{\LabelDate}{Submission Date}
+
+\SetWatermarkText{\transparent{\CoverWatermarkOpacity}\includegraphics[width=\CoverWatermarkScale\paperwidth]{\CoverWatermarkLogo}}
+\SetWatermarkAngle{0} 
+\SetWatermarkHorCenter{0.25\paperwidth} 
+\SetWatermarkVerCenter{0.64\paperheight}
+
+\begin{titlepage}
+\thispagestyle{empty} 
+\centering
+
+% ---------- Official Logo ----------
+\vspace*{0.2cm} 
+\includegraphics[width=\CoverMainLogoWidth]{\CoverMainLogo} 
+\vspace{0.5cm} 
+
+% ---------- Top Corner Headers ----------
+\noindent
+\begin{minipage}[t]{0.48\textwidth} 
+  \flushleft \normalsize \color{gray} 
+  {\large \textls[100]{\textbf{\color{purple}\LabelBranch}}}\\[0.1cm] 
+  \textls[100]{\BranchName}\\[0.1cm] 
+  \textls[100]{\CampusName}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth} 
+  \flushright \normalsize \color{gray} 
+  {\large \textls[100]{\textbf{\color{purple}\LabelFaculty}}}\\[0.1cm] 
+  \textls[100]{\FacultyLineOne}\\[0.1cm] 
+  \textls[100]{\FacultyLineTwo}
+\end{minipage}
+\vspace{0.6cm} 
+
+% ---------- Title Section ---------- 
+\vspace{0.2cm}
+{\color{blue}\rule{\textwidth}{2pt}}\\[0.2cm] 
+{\small \fontfamily{ppl}\selectfont \textls[150]{\textcolor{gray}{\textsc{\textbf{\DocType}}}}}\\[0.4cm] 
+{\Huge\bfseries\color{darkgray} \DocTitleLineOne \\[0.2cm] \DocTitleLineTwo }\\[0.6cm]
+{\color{blue}\rule{\textwidth}{2pt}}\\[0.6cm]
+
+% ---------- Degree Program ---------- 
+{\large \textit{\color{gray}\LabelFulfillment}}\\[0.2cm]
+{\Large \bfseries \color{darkgray}\ProgramName}\\[0.6cm]
+
+% ---------- SUBJECT ----------
+{\large \textls[100]{\color{gray}\CourseName}}\\[0.2cm]
+{\Large \bfseries \color{darkgray}\CourseCode}\\[0.6cm] 
+
+% ---------- Prepared by ---------- 
+\vspace*{\fill} 
+\begin{center}
+  {\large \fontfamily{ppl}\selectfont \textls[150]{\textsc{\color{gray}\LabelPreparedBy}}}\\[0.4cm]
+  \renewcommand{\arraystretch}{1.1} 
+  \arrayrulecolor{gray} 
+  \begin{tabular}{@{} r @{\hspace{0.3cm}} l @{\hspace{2cm}} l @{}}
+    \toprule
+    & \textbf{\color{darkgray}\LabelStudentName} & \textbf{\color{darkgray}\LabelStudentID} \\
+    \midrule
+    \StudentsInfo
+    \bottomrule
+  \end{tabular}
+  \arrayrulecolor{black} 
+\end{center}
+\vspace*{\fill}
+
+% ---------- Footer ---------- 
+\noindent
+\begin{minipage}[b]{\textwidth}
+  \centering
+  \renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{c @{\hspace{6cm}} c}
+    \textls[120]{\textsc{\color{gray}\small \LabelLecturer}} & \textls[120]{\textsc{\color{gray}\small \LabelDate}} \\[0.1cm]
+    \textbf{\large \color{darkgray}\LecturerName} & \textbf{\large \color{darkgray}\SubmissionDate}
+  \end{tabular}
+\end{minipage}
+
+\end{titlepage}

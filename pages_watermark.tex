@@ -1,0 +1,17 @@
+% --- Main Pages Watermark Setup (Jawi Logo) ---
+\newcommand{\PagesWatermarkLogo}{UiTM_Logo_Colour_Jawi.png}
+\newcommand{\PagesWatermarkOpacity}{0.06}
+\newcommand{\PagesWatermarkScale}{1.3}
+\newcommand{\PagesWatermarkAngle}{45}
+\newcommand{\PagesWatermarkCenter}{0.5}
+
+% ======================================================================
+% WATERMARK FOR PAGES
+% ======================================================================
+\SetWatermarkText{%
+  \transparent{\PagesWatermarkOpacity}%
+  \includegraphics[width=\PagesWatermarkScale\textwidth]{\PagesWatermarkLogo}%
+}
+\SetWatermarkAngle{\PagesWatermarkAngle} 
+\SetWatermarkHorCenter{\PagesWatermarkCenter\paperwidth}
+\SetWatermarkVerCenter{\PagesWatermarkCenter\paperheight}

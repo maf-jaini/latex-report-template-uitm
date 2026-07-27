@@ -1,0 +1,85 @@
+% ======================================================================
+% UNIVERSAL ACADEMIC COVER PAGE & REPORT TEMPLATE 
+% Author: M.A.F. Jaini
+% Year: 2026
+% ======================================================================
+
+\documentclass[12pt, a4paper]{article}
+
+% 1. ENGINES
+\usepackage{core} 
+\usepackage{author}    
+
+% 2. DATA & LAYOUT
+\input{config.tex}
+\input{header_footer.tex} 
+
+\begin{document} 
+
+% 4. TITLE PAGE
+\input{title_page.tex}
+\newpage
+
+% 5. WATERMARK FOR PAGES SETUP 
+\input{pages_watermark.tex}
+
+% 6. DOCUMENT INFO PAGE
+\input{colophon.tex}
+\newpage
+
+\pagenumbering{roman} 
+\setcounter{page}{2}
+
+% 7. TABLE OF CONTENTS
+\tableofcontents
+\newpage
+
+% 8. LIST OF FIGURES & TABLES
+\listoffigures
+\listoftables
+\newpage
+
+\pagenumbering{arabic}
+
+% 9. MAIN CONTENT
+\section{Introduction}
+Provide your background information and the problem statement here.
+
+\subsection{Objectives}
+What is the goal of this assignment?
+
+\subsection{Scope of Study}
+What are the limitations or boundaries of your project?
+
+\section{Methodology}
+Explain the mathematical formulas (like Least Squares) or the algorithms you used.
+
+\subsection{Data Collection}
+Where did you get your dataset for app usage and screen time?
+
+\section{Results and Analysis}
+This is where you put your graphs, charts, and mathematical proofs.
+
+\subsection{Calculation of Least Squares}
+Show your working here.
+
+\subsubsection{Matrix Formulation}
+Use subsubsections if you need to break down calculations even further.
+
+\section{Discussion}
+Interpret your results. Did the screen time correlate with the number of apps?
+
+\section{Conclusion}
+Summarize the findings of your mini-project.
+
+\newpage 
+
+% 10. REFERENCES
+\input{references.tex}
+\newpage
+
+% 11. APPENDIX
+\appendix 
+\input{appendix.tex}
+
+\end{document}
