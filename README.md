@@ -37,7 +37,7 @@ my-report-project/
 ├── main.tex                       # The master driver file (compile this!)
 │
 ├── styles/                        # Internal Engines (Do not edit for daily use)
-│   ├── uitmcore.sty               # Core packages, geometry, and color definitions
+│   ├── core.sty                   # Core packages, geometry, and color definitions
 │   └── author.sty                 # Permanent author metadata and template license
 │
 └── subfiles/                      # Layout & Content
