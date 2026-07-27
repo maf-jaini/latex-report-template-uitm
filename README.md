@@ -1,5 +1,6 @@
 # Universal Academic Cover Page & Report Template
 
+[![Open in Overleaf](https://img.shields.io/badge/Overleaf-Open%20as%20Template-green?logo=overleaf)](https://www.overleaf.com/read/qzgsrrrnqvzm#0ea510)
 ![Version](https://img.shields.io/badge/version-1.0-blue.svg)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
 ![Build](https://img.shields.io/badge/build-pdfLaTeX-orange.svg)
@@ -7,6 +8,16 @@
 A highly modular, professional LaTeX template designed for university assignments, mini-reports, and academic papers. This template abstracts complex formatting and styling into dedicated engine files, allowing you to focus entirely on writing your report content and filling in your assignment details.
 
 Created originally for Universiti Teknologi MARA (UiTM) students, but easily adaptable for any institution.
+
+## 🚀 Quick Start
+
+### Option 1: Use on Overleaf (Recommended)
+Click the badge above or [Open on Overleaf](https://www.overleaf.com/read/qzgsrrrnqvzm#0ea510) to instantly clone this template into your Overleaf account.
+
+### Option 2: Local Use (LaTeX Editor / VS Code)
+1. Clone this repository: `git clone https://github.com/mafjaini/your-repo-name.git`
+2. Open `main.tex` in your LaTeX editor (e.g., TeXstudio, VS Code with LaTeX Workshop).
+3. Compile using **pdfLaTeX**.
 
 ## ✨ Features
 
