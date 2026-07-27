@@ -1,9 +1,12 @@
-# Universal Academic Cover Page & Report Template
+# 📄 Universal Academic Report & Cover Page Template
 
-[![Open in Overleaf](https://img.shields.io/badge/Overleaf-Open%20as%20Template-green?logo=overleaf)](https://www.overleaf.com/read/qzgsrrrnqvzm#0ea510)
-![Version](https://img.shields.io/badge/version-1.0-blue.svg)
-![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
-![Build](https://img.shields.io/badge/build-pdfLaTeX-orange.svg)
+<!-- BADGES SECTION -->
+[![Open in Overleaf](https://img.shields.io/badge/Overleaf-Open%20as%20Template-008080?style=for-the-badge&logo=overleaf&logoColor=white)](https://www.overleaf.com/read/qzgsrrrnqvzm#0ea510)
+[![LaTeX Version](https://img.shields.io/badge/LaTeX-pdfLaTeX-005fa6?style=for-the-badge&logo=latex&logoColor=white)](https://www.latex-project.org/)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey?style=for-the-badge)](https://creativecommons.org/licenses/by/4.0/)
+[![GitHub Stars](https://img.shields.io/github/stars/mafjaini/YOUR_REPO_NAME?style=for-the-badge&color=gold)](https://github.com/mafjaini/YOUR_REPO_NAME/stargazers)
+
+---
 
 A highly modular, professional LaTeX template designed for university assignments, mini-reports, and academic papers. This template abstracts complex formatting and styling into dedicated engine files, allowing you to focus entirely on writing your report content and filling in your assignment details.
 
