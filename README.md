@@ -60,3 +60,5 @@ You are free to use, modify, and distribute this template for both personal and 
 
 ---
 *Developed by M.A.F Jaini (2026)*
+
+If you found this template helpful, please consider giving this repository a ⭐️ on GitHub to help other students find it!
